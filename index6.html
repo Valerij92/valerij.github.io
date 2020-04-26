@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <body background=<a href="https://habrastorage.org/webt/lq/fp/ge/lqfpgesagpmspmleypn6djetfpm.jpeg"><img src="https://habrastorage.org/webt/lq/fp/ge/lqfpgesagpmspmleypn6djetfpm.jpeg" alt=""></a>>
+   <table aliign="center" border="1" cellpadding="0" cellspacing="0" widht="900" height= "1100">
+  <body text=black; bgcolor=black>
+  <link rel="stylesheet" type="text/css"href="style.css"
+  <meta charset="utf-8">
+ <style media="screen">
+ </style>
+ <nav class="site-header sticky-top py-1">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="Product">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+    </a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+  </div>
+</nav>
+<head>
+  <h1> First web project published on GitHub pages </h1>
+
+<script>
+let admin, name;
+name= "Welcome!";
+
+admin= name
+
+alert(admin)
+</script>
+
+
+<style type="text/css">
+.tabs { width: 100%; padding: 0px; margin: 0 auto; }
+.tabs>input { display: none; }
+.tabs>div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #C0C0C0;
+    background: #FFFFFF;
+}
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #666666;
+    border: 1px solid #C0C0C0;
+    background: #E0E0E0;
+    cursor: pointer;
+}
+.tabs>input:checked + label {
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;
+    background: #FFFFFF;
+}
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2,
+#tab_3:checked ~ #txt_3,
+#tab_4:checked ~ #txt_4 { display: block; }
+</style>
+
+<script type="text/javascript">
+function Input(){
+login_ok = false;
+user_name = "";
+password = "";
+user_name = prompt("Login","");
+user_name = user_name.toLowerCase();
+password = prompt("password","");
+password = password.toLowerCase();
+if (user_name=="login" && password=="pass") {
+ login_ok = true;
+ window.location = "index.php";
+}
+if (user_name=="login2" && password=="pass2") {
+ login_ok = true;
+ window.location = "forum/index.php";
+}
+
+if (login_ok==false) alert("Invalid login or password!");
+}
+</script>
+<div align="center">
+ <form>
+  <input type="button" value="You may enter" onClick="Input()">
+ </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+</script>
+<span id="time">Date and time</span>
+<script type="text/javascript">
+function clock() {
+var d = new Date();
+var day = d.getDate();
+var hrs = d.getHours();
+var min = d.getMinutes();
+var sec = d.getSeconds();
+
+var mnt = new Array("january", "february", "march", "april", "may",
+"june", "july", "august", "september", "november", "october", "december");
+
+if (day <= 9) day="0" + day;
+if (hrs <= 9) hrs="0" + hrs;
+if (min <=9 ) min="0" + min;
+if (sec <= 9) sec="0" + sec;
+
+$("#time").html("now: " + hrs + ":" + min + ":" + sec + "&nbsp;&nbsp;&nbsp;" +
+day + ". " + mnt[d.getMonth()] + " " + d.getFullYear() + " .");
+}
+setInterval("clock()",1000);
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+</script>
+<div style="height: 1000px; width: 300px; border: 1px solid #000000;">
+    <div id="floating_block"><img src="https://img.icons8.com/clouds/500/github.png"></div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+var footer = 90;
+var position = $("#floating_block").offset().top-20;
+
+$(window).scroll(function(){
+ var scroll = $(window).scrollTop();
+ if ($("#floating_block").height()<$(document).height()-footer-scroll) {
+    if (scroll>position) {
+        $("#floating_block").stop().animate({"paddingTop" : scroll-position}, 400);
+    }
+    else $("#floating_block").stop().animate({"paddingTop" : 0}, 400);
+ }
+});
+$(window).trigger("scroll");
+});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+</script>
+
+
+  </body>
+</head>
+  </html>
